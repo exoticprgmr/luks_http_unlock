@@ -158,7 +158,7 @@ fi
 exit 1
 EOF
 
-chmod +x /lib/cryptsetup/scripts/httpkey
+chmod 700 /lib/cryptsetup/scripts/httpkey
 
 echo "[+] Updating /etc/crypttab to use keyscript..."
 
